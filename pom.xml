@@ -39,10 +39,11 @@
             <artifactId>jackson-databind-nullable</artifactId>
             <version>0.2.6</version>
         </dependency>
+
         <dependency>
             <groupId>org.springdoc</groupId>
-            <artifactId>springdoc-openapi-ui</artifactId>
-            <version>1.8.0</version>
+            <artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
+            <version>2.5.0</version>
         </dependency>
 
         <dependency>
@@ -92,7 +93,7 @@
                         </goals>
                         <configuration>
                             <inputSpec>
-                                ${project.basedir}/src/main/resources/productstore.yml
+                                ${project.basedir}/src/main/resources/static/productstore.yml
                             </inputSpec>
                             <generatorName>spring</generatorName>
                             <packageName>org.example.openapidemo</packageName>

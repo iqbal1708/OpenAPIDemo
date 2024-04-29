@@ -1,0 +1,40 @@
+HELP.md
+
+
+!.mvn/wrapper/maven-wrapper.jar
+
+# Ignore everything in the target directory
+target/*
+
+# But keep the target/generated-sources directory
+!target/classes
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+/target/classes/org/example/openapidemo/controller/ProductsApiController$1.class
+/target/classes/org/example/openapidemo/controller/ProductsApi$1.class
